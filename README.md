@@ -14,4 +14,16 @@ Our aim is to use this data not only for urban development, infrastructure maint
 
 [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)
 
+## Data
 
+### About
+
+This dataset consists of 3D point cloud data of the entire Shizuoka Prefecture, measured using airborne laser scanning, airborne lasar bathymetry and mobile mapping systems. Each point in the point cloud data contains XYZ coordinates, color information, and class information.
+
+### Coordinate System
+
+[EPSG:6676 (JGD2011 / Japan Plane Rectangular CS VIII)](https://epsg.io/6676)
+
+### Format
+
+[LAS](https://www.ogc.org/standard/las/) (compressed by zip/7z)
