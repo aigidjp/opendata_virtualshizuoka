@@ -24,6 +24,30 @@ This dataset consists of 3D point cloud data of the entire Shizuoka Prefecture, 
 
 [EPSG:6676 (JGD2011 / Japan Plane Rectangular CS VIII)](https://epsg.io/6676)
 
+The Japanese Geodetic System Rectangular Plane Coordinate System is essential for local and regional mapping and surveying in Japan. Its division into zones, combined with the use of the Gauss-Krüger projection, ensures high accuracy in representing geographic positions.
+
+Japan is divided into 19 zones, each with its own local coordinate system. Each zone has a different origin (reference point) from which positions are measured.
+
+In this system, coordinates are expressed as an east-west (x-coordinate) and north-south (y-coordinate) distance from the origin of each zone. This allows for precise identification of locations on a map.
+
+#### References
+
+* [わかりやすい平面直角座標系（国土交通省国土地理院）](https://www.gsi.go.jp/sokuchikijun/jpc.html)
+
+### Grid System
+
+The National Basic Map Grid system is used to divide and identify sections of Japan's National Basic Maps. It's based on the Japan Plane Rectangular Coordinate System, using distances (in meters) from the origin point to define grid sections. It differs from the standard regional mesh system, which uses latitude and longitude for division.
+
+The grid system has five levels of map information: 50000, 5000, 2500, 1000, and 500. Each level has a specific naming convention for its grid sections. The grid code for each map section provides information about its location within the coordinate system.
+
+#### References
+
+- [国土基本図図郭とは｜図郭コードの読み方](https://club.informatix.co.jp/?p=1293)
+
 ### Format
 
 [LAS](https://www.ogc.org/standard/las/) (compressed by zip/7z)
+
+### Files
+
+The point cloud data is divided into a large number of files correspondings to each grid of the National Basic Map Grid system, at the level of map information 500. The name of each file contains the grid code.
