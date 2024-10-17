@@ -51,6 +51,16 @@ The grid system has five levels of map information: 50000, 5000, 2500, 1000, and
 
 [LAS](https://www.ogc.org/standard/las/) (compressed by zip/7z)
 
+### Data acquisition area
+
+The acquisition of point cloud data was conducted over multiple years, with each year targeting different areas.
+
+![Data Acquisition Area](images/VirtualShizuoka_year_area.png)
+
+### Data Types
+
+![Data Types](images/VirtualShizuoka_data_type.png)
+
 ### Files
 
 The point cloud data is divided into a large number of files correspondings to each grid of the National Basic Map Grid system, at the level of map information 500. The name of each file contains the grid code.
