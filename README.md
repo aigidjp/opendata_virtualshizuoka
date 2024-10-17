@@ -33,6 +33,7 @@ In this system, coordinates are expressed as an east-west (x-coordinate) and nor
 #### References
 
 * [わかりやすい平面直角座標系（国土交通省国土地理院）](https://www.gsi.go.jp/sokuchikijun/jpc.html)
+* [State Plane Coordinate System (National Geodetic Survey)](https://geodesy.noaa.gov/SPCS/)
 
 ### Grid System
 
@@ -43,6 +44,8 @@ The grid system has five levels of map information: 50000, 5000, 2500, 1000, and
 #### References
 
 - [国土基本図図郭とは｜図郭コードの読み方](https://club.informatix.co.jp/?p=1293)
+- [United States National Grid (Federal Geographic Data Committee)](https://www.fgdc.gov/usng/)
+- [Using the National Grid (Ordnance Survey)](https://www.ordnancesurvey.co.uk/documents/resources/guide-to-nationalgrid.pdf)
 
 ### Format
 
