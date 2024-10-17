@@ -59,6 +59,17 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 ### Data Types
 
+| Type | Directory Name | Description |
+| --- | --- | --- |
+| Original | LP | ??? |
+| Ground | GRD | ??? |
+| Grid | --- | ??? |
+| Ortho | ORTHO | ??? |
+| Contour | CONT | ??? |
+| BCK | BCK | ??? |
+| ALB | ALB | ??? |
+| MMS | MMS | ??? |
+
 ![Data Types](images/VirtualShizuoka_data_type.png)
 
 ### Files
