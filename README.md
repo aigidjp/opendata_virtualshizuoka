@@ -49,7 +49,11 @@ The grid system has five levels of map information: 50000, 5000, 2500, 1000, and
 
 ### Format
 
-[LAS](https://www.ogc.org/standard/las/) (compressed by zip/7z)
+[LAS](https://www.ogc.org/standard/las/) is a standard file format for point cloud data. The distributed files are compressed in zip or 7z format.
+
+#### References
+
+- [LAS Specification 1.4 - R15 (ASPRS)](https://www.asprs.org/wp-content/uploads/2019/07/LAS_1_4_r15.pdf)
 
 ### Data acquisition area
 
@@ -69,17 +73,30 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 | Type | Format | Directory Name | Description |
 | --- | --- | --- | --- |
-| Original | LAS | LP | ??? |
-| Ground | LAS | GRD | ??? |
-| Grid | ??? | ??? | ??? |
-| Ortho | TIFF | ORTHO | ??? |
+| Ground | LAS | LP | Point cloud data obtained by lasar profiling |
+| Grid | LAS | GRID | ??? |
 | Contour | TIFF | CONT | ??? |
-| BCK | ??? | BCK | ??? |
-| ALB | LAS | ALB | ??? |
-| MMS | LAS | MMS | ??? |
+| Ortho | TIFF | ORTHO | ??? |
 
 ![Data Types](images/VirtualShizuoka_data_type.png)
 
 ### Files
 
 The point cloud data is divided into a large number of files correspondings to each grid of the National Basic Map Grid system, at the level of map information 500. The name of each file contains the grid code.
+
+The datasets are available at ```s3://virtual-shizuoka/``` bucket.
+
+The object key consists of data type, zone number and grid codes.
+
+- TYPE1
+  - LP / MMS / UAV
+- TYPE2
+  - Ground / Grid / Ortho / Contour
+- ZONE
+  - '08' : Shizuoka Prefecture
+- GRID_CODE_50000
+  - grid code of Map Information Level 50000
+- GRID_CODE_500
+  - grid code of Map Information Level 500
+
+s3://virtual-shizuoka/**TYPE1**/**TYPE2**/**ZONE**/**LEVEL**/**LEVEL**/08ME3541.zip
