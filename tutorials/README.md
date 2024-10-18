@@ -68,4 +68,12 @@ The next sample shows the point cloud data of Kakegawa Castle.
 
 ### Deck.gl
 
-[PointCloudLayer](https://deck.gl/docs/api-reference/layers/point-cloud-layer)
+[Deck.gl](https://deck.gl/) is a framework for visualizing large datasets in web browsers, which supports various type of layers to display geospatial data. [PointCloudLayer](https://deck.gl/docs/api-reference/layers/point-cloud-layer) is enable to visualize point cloud data.
+
+## Tool
+
+### PDAL (Point Data Abstraction Library)
+
+[PDAL](https://pdal.io/) is a C/C++ open source library for translating and manipulating point cloud data, and provides a Python extension.
+
+[Here](https://pdal.io/en/latest/tutorial/index.html) is the official tutorial of PDAL.
