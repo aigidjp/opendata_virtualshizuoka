@@ -61,13 +61,13 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 ![Data Acquisition Area](images/VirtualShizuoka_year_area.png)
 
-| FY | Area | Directory |
-| --- | --- | --- |
-| 2019 | Southeast Mt.Fuji and Eastern Izu Peninsula　|   |
-| 2020 | Western Izu Peninsula |   |
-| 2021 | Mt.Fuji and Eastern Shizuoka |   |
-| 2021 | Midwest Shizuoka |   |
-| 2023 | Northern Shizuoka and Southern Alps |   |
+| FY | Area |
+| --- | --- |
+| 2019 | Southeast Mt.Fuji and Eastern Izu Peninsula　|
+| 2020 | Western Izu Peninsula |
+| 2021 | Mt.Fuji and Eastern Shizuoka |
+| 2021 | Midwest Shizuoka |
+| 2023 | Northern Shizuoka and Southern Alps |
 
 ### Data Types
 
