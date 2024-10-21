@@ -10,6 +10,8 @@ Our aim is to use this data not only for urban development, infrastructure maint
 
 ## License
 
+The datasets of Virtual Shizuoka is distributed a dual license: CC-BY 4.0 and ODbL.
+
 [Creative Commons Attribution 4.0 International  (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)
@@ -73,7 +75,7 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 | Type | Format | Directory Name | Description |
 | --- | --- | --- | --- |
-| Ground | LAS | LP | Point cloud data obtained by lasar profiling |
+| Original / Ground | LAS | LP | Point cloud data obtained by lasar profiling |
 | Grid | LAS | GRID | ??? |
 | Contour | TIFF | CONT | ??? |
 | Ortho | TIFF | ORTHO | ??? |
