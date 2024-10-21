@@ -73,12 +73,12 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 ### Data Types
 
-| Type | Format | Directory Name | Description |
-| --- | --- | --- | --- |
-| Original / Ground | LAS | LP | Point cloud data obtained by lasar profiling |
-| Grid | LAS | GRID | ??? |
-| Contour | TIFF | CONT | ??? |
-| Ortho | TIFF | ORTHO | ??? |
+| Type | Format | Description |
+| --- | --- | --- |
+| Original / Ground | LAS | Point cloud data obtained by lasar profiling |
+| Grid | LAS | ??? |
+| Contour | TIFF | ??? |
+| Ortho | TIFF | ??? |
 
 ![Data Types](images/VirtualShizuoka_data_type.png)
 
