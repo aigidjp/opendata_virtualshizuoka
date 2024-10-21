@@ -86,11 +86,11 @@ The point cloud data is divided into a large number of files correspondings to e
 
 The datasets are available at ```s3://virtual-shizuoka/``` bucket.
 
-The object key consists of data type, zone number and grid codes.
+The object key consists of acquisition method, data type, zone number and grid codes.
 
-- TYPE1
+- METHOD
   - LP / MMS / UAV
-- TYPE2
+- TYPE
   - Ground / Grid / Ortho / Contour
 - ZONE
   - '08' : Shizuoka Prefecture
@@ -99,4 +99,9 @@ The object key consists of data type, zone number and grid codes.
 - GRID_CODE_500
   - grid code of Map Information Level 500
 
-s3://virtual-shizuoka/**TYPE1**/**TYPE2**/**ZONE**/**LEVEL**/**LEVEL**/08ME3541.zip
+`s3://virtual-shizuoka/**METHOD**/**TYPE**/**ZONE**/**LEVEL**/**LEVEL**/FILENAME.zip`
+
+
+For example, an url of the object which contains point cloud data at the summit of Mt.Fuji is below.
+
+`s3://virtual-shizuoka/LP/Ground/08/ME/35/08ME3552.zip`
