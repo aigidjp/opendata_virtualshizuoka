@@ -76,9 +76,9 @@ The acquisition of point cloud data was conducted over multiple years, with each
 | Type | Format | Description |
 | --- | --- | --- |
 | Original / Ground | LAS | Point cloud data obtained by lasar profiling |
-| Grid | LAS | ??? |
-| Contour | TIFF | ??? |
-| Ortho | TIFF | ??? |
+| Grid | LAS | Elevation data at regular intervals created based on ground data |
+| Contour | DXF | Contour data automatically generated from grid data |
+| Ortho | TIFF | Orthophoto data converted from aerial photographs into orthographic projection |
 
 ![Data Types](images/VirtualShizuoka_data_type.png)
 
