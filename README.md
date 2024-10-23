@@ -86,10 +86,12 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 The point cloud data is divided into a large number of files correspondings to each grid of the National Basic Map Grid system, at the level of map information 500. The name of each file contains the grid code.
 
-The datasets are available at ```s3://virtual-shizuoka/``` bucket.
+The datasets are available at `s3://virtual-shizuoka` bucket.
 
-The object key consists of acquisition method, data type, zone number and grid codes.
+The object key consists of year, acquisition method, data type, zone number and grid codes.
 
+- YEAR
+  - year of data acquisition
 - METHOD
   - LP / MMS / UAV
 - TYPE
@@ -101,9 +103,14 @@ The object key consists of acquisition method, data type, zone number and grid c
 - GRID_CODE_500
   - grid code of Map Information Level 500
 
-`s3://virtual-shizuoka/**METHOD**/**TYPE**/**ZONE**/**LEVEL**/**LEVEL**/FILENAME.zip`
 
+s3://virtual-shizuoka/**YEAR**/**METHOD**/**TYPE**/**ZONE**/**GRID_CODE_50000**/**GRID_CODE_500**/**FILENAME**
+
+***
 
 For example, an url of the object which contains point cloud data at the summit of Mt.Fuji is below.
 
-`s3://virtual-shizuoka/LP/Ground/08/ME/35/08ME3552.zip`
+`s3://virtual-shizuoka/2021/LP/Ground/08/ME/35/08ME3552.zip`
+
+***
+
